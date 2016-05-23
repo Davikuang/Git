@@ -15,6 +15,7 @@
 		6A447D781CF2A99D0071383D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A447D761CF2A99D0071383D /* LaunchScreen.storyboard */; };
 		6A447D831CF2A99D0071383D /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A447D821CF2A99D0071383D /* GitTests.m */; };
 		6A447D8E1CF2A99D0071383D /* GitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A447D8D1CF2A99D0071383D /* GitUITests.m */; };
+		6A447D9C1CF2C9D10071383D /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 6A447D9B1CF2C9D10071383D /* File.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6A447D891CF2A99D0071383D /* GitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A447D8D1CF2A99D0071383D /* GitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUITests.m; sourceTree = "<group>"; };
 		6A447D8F1CF2A99D0071383D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A447D9B1CF2C9D10071383D /* File.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
+		6A447D9D1CF2C9E80071383D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +108,13 @@
 				6A447D6C1CF2A99D0071383D /* AppDelegate.m */,
 				6A447D6E1CF2A99D0071383D /* ViewController.h */,
 				6A447D6F1CF2A99D0071383D /* ViewController.m */,
+				6A447D9B1CF2C9D10071383D /* File.metal */,
 				6A447D711CF2A99D0071383D /* Main.storyboard */,
 				6A447D741CF2A99D0071383D /* Assets.xcassets */,
 				6A447D761CF2A99D0071383D /* LaunchScreen.storyboard */,
 				6A447D791CF2A99D0071383D /* Info.plist */,
 				6A447D681CF2A99D0071383D /* Supporting Files */,
+				6A447D9D1CF2C9E80071383D /* Config.xcconfig */,
 			);
 			path = Git;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				6A447D701CF2A99D0071383D /* ViewController.m in Sources */,
 				6A447D6D1CF2A99D0071383D /* AppDelegate.m in Sources */,
 				6A447D6A1CF2A99D0071383D /* main.m in Sources */,
+				6A447D9C1CF2C9D10071383D /* File.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
