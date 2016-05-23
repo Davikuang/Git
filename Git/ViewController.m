@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"new text");
     NSLog(@"second text");
+    NSLog(@"东西发到哪去了");
 }
 
 - (void)didReceiveMemoryWarning {
