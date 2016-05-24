@@ -21,6 +21,7 @@
     NSLog(@"second text");
     NSLog(@"东西发到哪去了");
     NSLog(@"sdsd");
+    NSLog(@"wode ");
 }
 
 - (void)didReceiveMemoryWarning {
