@@ -22,6 +22,7 @@
     NSLog(@"东西发到哪去了");
     NSLog(@"sdsd");
     NSLog(@"wode ");
+    NSLog(@"我的测试");
 }
 
 - (void)didReceiveMemoryWarning {
